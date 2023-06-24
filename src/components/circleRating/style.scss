@@ -1,0 +1,15 @@
+.circleRating {
+    background-color: var(--black);
+    border-radius: 50%;
+    padding: 2px;
+    .CircularProgressbar-text {
+        font-size: 34px;
+        font-weight: 700;
+        fill: var(--black);
+    }
+
+    // what is this trail? - the progress bar is like a complete circle, this is the trail - a circle, divided in like 10 sections. so acc to the ratnig, some of the trail gets filled, while some portion is left, like if the rating is 5.00 then half of the trial will be filled with the resp color, and half will remain colorless, so we just hid it using the below css
+    .CircularProgressbar-trail {
+        stroke: transparent;
+    }
+}
