@@ -4,7 +4,9 @@ import {
   FaInstagram,
   FaTwitter,
   FaLinkedin,
+  FaCopyright,
 } from "react-icons/fa";
+import { AiFillHeart } from "react-icons/ai";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
@@ -42,6 +44,16 @@ const Footer = () => {
           <span className="icon">
             <FaLinkedin />
           </span>
+        </div>
+        <div className="outro">
+          <span className="icon">
+            <FaCopyright />
+          </span>
+          <span> Made with </span>
+          <span className="icon">
+            <AiFillHeart />
+          </span>
+          <span> by Shashank.</span>
         </div>
       </ContentWrapper>
     </footer>
